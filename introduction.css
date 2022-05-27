@@ -1,11 +1,4 @@
-body{
-    font-family: "Noto Sans", "sans-serif";
-    margin: 0;
-    padding-bottom: 10000px;
-}
-
 .jsa-logo{
-    display: flex;
     position: absolute;
     width: 125px ;
     height: auto;
@@ -16,13 +9,13 @@ body{
 .introduction-container{
     position: relative;
     height: auto;
-    width: 100%;
+    max-width: 100%;
 }
-.landing-text-eng{
+.landing-text{
     font-family: "Noto Sans JP", "sans-serif";
     position: absolute;
     color: white;
-    inline-size: 550px;
+    inline-size: 540px;
     bottom: 60%;
     left: 7%;
     margin: 0;

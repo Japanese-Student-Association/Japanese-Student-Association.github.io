@@ -1,0 +1,112 @@
+.nav-bar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    position: fixed;
+    left: 0;
+    width: 70px;
+    z-index: 1;
+}
+.groupme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: whitesmoke;
+    transition: .2s;
+}
+.jsa-pin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: whitesmoke;
+    transition: .2s;
+}
+.discord{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: whitesmoke;
+    transition: .2s;
+}
+.instagram{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom: whitesmoke;
+    transition: .2s;
+}
+.spotify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border-style: solid;
+    border-width: 1px;
+    transition: .2s;
+}
+.groupme-logo{
+    max-width: 100%;
+    height: auto;
+}
+.jsa-pin-icon{
+    max-width: 50%;
+    height: auto;
+}
+.discord-logo{
+    max-width: 100%;
+    height: auto;
+}
+.insta-logo{
+    max-width: 80%;
+    height: auto;
+}
+.spotify-logo{
+    max-width: 80%;
+    height: auto;
+}
+.groupme:hover{
+    background-color: rgba(15, 172, 243, 0.7);
+    cursor: pointer;
+}
+.jsa-pin:hover{
+    background-color: rgba(3, 45, 255, 0.82);
+    cursor: pointer;
+}
+.discord:hover{
+    background-color: rgba(84, 96, 255, 0.7);
+    cursor: pointer;
+}
+.instagram:hover{
+    background-color: rgba(236, 71, 87, 0.7);
+    cursor: pointer;
+}
+.spotify:hover{
+    background-color: rgba(123, 179, 66, 0.7);
+    cursor: pointer;
+}
+
+
+
+
+
+

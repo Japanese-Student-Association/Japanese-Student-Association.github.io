@@ -15,9 +15,8 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    border-style: solid;
-    border-width: 1px;
-    border-bottom: whitesmoke;
+    color: black;
+    border-style: none;
     transition: .2s;
 }
 .jsa-pin{
@@ -25,10 +24,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex: 1;
-    border-style: solid;
-    border-width: 1px;
-    border-bottom: whitesmoke;
+    color: black;
+    text-decoration: none;
+    border-style: none;
     transition: .2s;
 }
 .discord{
@@ -36,11 +36,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     flex: 1;
-    border-style: solid;
-    border-width: 1px;
-    border-bottom: whitesmoke;
+    color: black;
+    border-style: none;
     transition: .2s;
 }
 .instagram{
@@ -49,9 +47,8 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    border-style: solid;
-    border-width: 1px;
-    border-bottom: whitesmoke;
+    color: black;
+    border-style: none;
     transition: .2s;
 }
 .spotify{
@@ -60,8 +57,31 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    border-style: solid;
-    border-width: 1px;
+    color: black;
+    border-style: none;
+    transition: .2s;
+}
+.tutoring{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: black;
+    text-decoration: none;
+    border-style: none;
+    transition: .2s;
+}
+.learning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    color: black;
+    text-decoration: none;
+    border-style: none;
     transition: .2s;
 }
 .groupme-logo{
@@ -84,25 +104,30 @@
     max-width: 80%;
     height: auto;
 }
+.learning-icon{
+    max-width: 40%;
+    height: auto;
+}
 .groupme:hover{
-    background-color: rgba(15, 172, 243, 0.7);
-    cursor: pointer;
+    background-color: rgb(253, 200, 225);
 }
 .jsa-pin:hover{
-    background-color: rgba(3, 45, 255, 0.82);
-    cursor: pointer;
+    background-color: rgb(253, 200, 225);
 }
 .discord:hover{
-    background-color: rgba(84, 96, 255, 0.7);
-    cursor: pointer;
+    background-color: rgb(253, 200, 225);
 }
 .instagram:hover{
-    background-color: rgba(236, 71, 87, 0.7);
-    cursor: pointer;
+    background-color: rgb(253, 200, 225);
 }
 .spotify:hover{
-    background-color: rgba(123, 179, 66, 0.7);
-    cursor: pointer;
+    background-color: rgb(253, 200, 225);
+}
+.tutoring:hover{
+    background-color: rgb(253, 200, 225);
+}
+.learning:hover{
+    background-color: rgb(253, 200, 225);
 }
 
 

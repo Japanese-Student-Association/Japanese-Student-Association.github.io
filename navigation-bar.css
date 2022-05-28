@@ -6,7 +6,7 @@
     background-color: whitesmoke;
     position: fixed;
     left: 0;
-    width: 70px;
+    max-width: 70px;
     z-index: 1;
 }
 .groupme{

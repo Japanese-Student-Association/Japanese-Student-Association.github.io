@@ -1,6 +1,10 @@
 body{
     font-family: "Noto Sans", "sans-serif";
     margin: 0;
+    background: linear-gradient(
+            rgb(253, 219, 148),
+            rgb(246, 140, 140)
+    );
     padding-bottom: 10000px;
-    padding-left: 70px;
+    padding-left: 60px;
 }

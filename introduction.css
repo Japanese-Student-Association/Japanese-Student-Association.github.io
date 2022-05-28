@@ -8,7 +8,7 @@
     position: absolute;
     color: #262626;
     inline-size: 540px;
-    bottom: 60%;
+    bottom: 63%;
     left: 7%;
     margin: 0;
     letter-spacing: 2px;
@@ -16,4 +16,10 @@
 .background-img{
     max-width: 100%;
     height: auto;
+}
+.eboard-section-title{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    margin: 25px 0 25px 0;
 }

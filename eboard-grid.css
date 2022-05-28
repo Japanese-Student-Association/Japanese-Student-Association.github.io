@@ -1,0 +1,44 @@
+.eboard-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px;
+    grid-row-gap: 80px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 10% 0 10%;
+}
+
+
+.eboard-member{
+    font-size: 20px;
+}
+.member-picture{
+    width: 100%;
+    height: auto;
+    transition: .2s;
+}
+.overlay-container{
+    position: relative;
+}
+.overlay{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(195, 170, 246, 0.7);
+    opacity: 0;
+    transition: .2s;
+}
+.overlay:hover{
+    color: whitesmoke;
+    opacity: 1;
+    cursor: pointer;
+}
+.member-role{
+    margin: 0;
+    font-size: 16px;
+}

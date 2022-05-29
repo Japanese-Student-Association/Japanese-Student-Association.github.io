@@ -19,8 +19,8 @@
 }
 .overlay-container{
     position: relative;
-    height: 475px;
-    width: 350px;
+    height: 543px;
+    width: 400px;
 }
 .overlay{
     display: flex;

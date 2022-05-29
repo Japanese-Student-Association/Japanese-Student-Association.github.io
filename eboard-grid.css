@@ -10,15 +10,17 @@
 
 
 .eboard-member{
-    font-size: 20px;
+    font-size: 25px;
 }
-.member-picture{
-    width: 100%;
-    height: auto;
-    transition: .2s;
+.member-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .overlay-container{
     position: relative;
+    height: 475px;
+    width: 350px;
 }
 .overlay{
     display: flex;
@@ -29,10 +31,15 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    background: rgba(195, 170, 246, 0.7);
+    background: rgba(246, 165, 240, 0.75);
     opacity: 0;
     transition: .2s;
 }
+.member-picture{
+    width: 100%;
+    height: 100%;
+    transition: .2s;
+ }
 .overlay:hover{
     color: whitesmoke;
     opacity: 1;

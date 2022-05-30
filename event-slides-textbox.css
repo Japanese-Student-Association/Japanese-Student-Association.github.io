@@ -20,7 +20,7 @@
     position: absolute;
     top: 50%;
     left: 0;
-    border-style: solid;
+    border-style: none;
     border-width: 1px;
     background-color: rgba(0,0,0,0);
 }
@@ -28,7 +28,7 @@
     position: absolute;
     top: 50%;
     right: 0;
-    border-style: solid;
+    border-style: none;
     border-width: 1px;
     background-color: rgba(0,0,0,0);
 }

@@ -8,7 +8,7 @@
             rgb(206, 180, 255));
     position: fixed;
     left: 0;
-    max-width: 65px;
+    max-width: 5%;
     font-size: 14px;
     z-index: 1;
 }
@@ -132,7 +132,6 @@
 .learning:hover{
     background-color: rgb(253, 200, 225);
 }
-
 
 
 

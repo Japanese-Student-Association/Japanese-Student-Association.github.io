@@ -1,7 +1,7 @@
 .introduction-container{
     position: relative;
     height: auto;
-    max-width: 100%;
+    width: 100%;
 }
 .landing-text{
     font-family: "Noto Sans JP", "sans-serif";
@@ -14,6 +14,6 @@
     letter-spacing: 2px;
 }
 .background-img{
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }

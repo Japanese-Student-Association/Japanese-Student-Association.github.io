@@ -1,14 +1,16 @@
 .eboard-grid{
     display: grid;
+    width: 100%;
+    height: auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 80px;
-    grid-row-gap: 80px;
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
     text-align: center;
     font-weight: bold;
-    margin: 0 10% 100px 10%;
+    margin: 0 0 100px 0;
 }
 .eboard-member{
-    font-size: 20px;
+    max-font-size: 20px;
 }
 .member-container{
     display: flex;

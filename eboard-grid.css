@@ -49,5 +49,11 @@
     margin: 0;
     font-size: 14px;
 }
+@media (max-width: 1050px){
+    .eboard-visuals-container{
+        height: 238px;
+        width: 175px
+    }
+}
 
 

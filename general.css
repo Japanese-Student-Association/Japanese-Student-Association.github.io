@@ -1,11 +1,15 @@
+html{
+    height: 100%;
+}
 body{
     min-width: 100%;
+    min-height: 100%;
     font-family: "Noto Sans", "sans-serif";
     background: linear-gradient(
             rgb(253, 219, 148),
             rgb(246, 140, 140)
     );
-    padding:0 0 5% 0;
+    padding:0 0 0 0;
     margin: 0 0 0 5%;
 }
 .eboard-section-title{

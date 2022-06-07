@@ -7,211 +7,215 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="general.css">
-    <link rel="stylesheet" href="navigation-bar.css">
     <link rel="stylesheet" href="introduction.css">
     <link rel="stylesheet" href="eboard-grid.css">
-    <link rel="stylesheet" href="event-slides-flexbox.css">
+    <link rel="stylesheet" href="useful-links.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   </head>
   <body>
     
-    <nav class="nav-bar">
-      <a class="groupme" href="https://web.groupme.com/join_group/85219025/WhKOeygs" target="_blank">
-        <img class="groupme-logo" src="Navigation-bar-icons/groupme.png" alt="groupme">
-      </a>
-      <a class="jsa-pin" href="https://pin.gsu.edu/organization/japanese-student-association" target="_blank">
-        <img class="jsa-pin-icon" src="Navigation-bar-icons/PIN.png" alt="JSA PIN">
-        <p>
-          JSA PIN
-        </p>
-      </a>
-      <a class="discord" href="https://discord.com/invite/ncDW8CW" target="_blank">
-        <img class="discord-logo" src="Navigation-bar-icons/discord.png" alt="groupme">
-      </a>
-      <a class="instagram" href="https://www.instagram.com/accounts/login/?next=/gsujsa/" target="_blank">
-        <img class="insta-logo" src="Navigation-bar-icons/instagram.png" alt="instagram">
-      </a>
-      <a class="spotify" href="https://open.spotify.com/user/au5kkn0p64t0huqvlcme9wy0f?si=t5eBleaaQziLQOK2KCqURg&nd=1" target="_blank">
-        <img class="spotify-logo" src="Navigation-bar-icons/spotify.png" alt="spotify">
-      </a>
-      <a class="tutoring" href="https://docs.google.com/forms/d/e/1FAIpQLScZSNAj16XSBiQ2EE0wwKsOBJvluS3LN07HW18SQ3AxDxRTOw/viewform" target="_blank">
-        <img class="learning-icon" src="Navigation-bar-icons/learning.png" alt="learning resources">
-        <p>
-          Tutoring
-        </p>
-      </a>
-      <a class="learning" href="https://docs.google.com/document/u/1/d/1WgsAATKvVruRtk1GorhvdoqMPTDTjjF7BdDoFoijLRI/mobilebasic" target="_blank">
-        日本語
-        <p>
-           Learn Japanese
-        </p>
-      </a>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-color py-0 fixed-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand text-black fw-bold">
+          <img src="/icons/logo.png" alt="" width="70">
+        GSU JSA
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#introduction" class="nav-link text-black"> Top of Page</a>
+            </li>
+            <li class="nav-item">
+              <a href="#e-board" class="nav-link text-black"> E-board</a>
+            </li>
+            <li class="nav-item">
+              <a href="#links" class="nav-link text-black"> Useful Links</a>
+            </li>
+            <li class="nav-item">
+              <a target="_blank" href="https://docs.google.com/document/u/1/d/1WgsAATKvVruRtk1GorhvdoqMPTDTjjF7BdDoFoijLRI/mobilebasic" class="nav-link text-black">
+                日本語 Learn Japanese
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <div class="introduction-container">
-      <h1 class="landing-text">
-        Georgia State University <wbr> Japanese Student Association <wbr> 日本学生協会
-      </h1>
-      <img class="background-img" src="Landscape-photo/landscape.jpg" alt="Background Image">
-    </div>
-
-    <p class="eboard-section-title">
-      MEET THE E-BOARD
-    </p>
-    <div class="eboard-grid">
-      <div class="member-container">
-        <p class="eboard-member">
-          Ken Aratame
+    <section id="introduction" class="intro-background">
+      <div class="container-fluid p-5 ">
+        <p class="h1 p-5">
+          Georgia State University <br>Japanese Student Association <br> 日本学生協会
         </p>
-        <div class="eboard-visuals-container">
-          <img class="member-picture" src="Eboard-headshots/president.png" alt="president">
-          <div class="eboard-overlay">
-            <p class="member-role">
-              President / だいとうりょう
+      </div>
+    </section>
+
+    <section id="e-board" class="py-2">
+      <div class="container-fluid text-center">
+        <p class=" pb-4 e-board-section-title ">
+          Meet The Executive Board!
+        </p>
+        <div class="row text-center mb-5">
+          <div class="col-3">
+            <p class="h6 fw-bold">
+              Ken Aratame <br>
+               [President]
             </p>
+            <img class="shadow" src="eboard-headshots/president.png" alt="e-board">
+          </div>
+          <div class="col-3">
+            <p class="h6 fw-bold">
+              Julia Kakuda <br>
+              [Copresident]
+            </p>
+            <img class="shadow" src="/eboard-headshots/copresident.png" alt="e-board">
+          </div>
+          <div class="col-3">
+            <p class="h6 fw-bold">
+              Suzuna Kimura <br>
+              [Treasurer]
+            </p>
+            <img class="shadow" src="/eboard-headshots/treasurer.png" alt="e-board">
+          </div>
+          <div class="col-3">
+            <p class="h6 fw-bold">
+              Jennifer Wang <br>
+              [Social-Media-Manager]
+            </p>
+            <img class="shadow" src="/eboard-headshots/social-media-manager.png" alt="e-board">
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-3">
+            <p class="h6 fw-bold">
+              Joshua Johnston <br>
+              [Secretary]
+            </p>
+            <img class="shadow" src="/eboard-headshots/secretary.png" alt="e-board">
+          </div>
+          <div class="col-3">
+            <p class="h6 fw-bold">
+              Kensho Takahashi <br>
+              [Graphic Design & PR]
+            </p>
+            <img class="shadow" src="/eboard-headshots/graphic-design-pr.png" alt="e-board">
+          </div>
+          <div class="col-3">
+            <p class="h6 fw-bold">
+              Farhan Sajid Soomro <br>
+              [Event Coordinator]
+            </p>
+            <img class="shadow" src="/eboard-headshots/event-coordinator.png" alt="e-board">
+          </div>
+          <div class="col-3">
+            <p class="h6 fw-bold">
+              Kristian Agenor <br>
+              [Marketing]
+            </p>
+            <img class="shadow" src="/eboard-headshots/marketing.png" alt="e-board">
           </div>
         </div>
       </div>
-
-      <div class="member-container">
-        <p class="eboard-member">
-          Julia Kakuda
-        </p>
-        <div class="eboard-visuals-container">
-          <img class="member-picture" src="Eboard-headshots/copresident.png" alt="copresident">
-          <div class="eboard-overlay">
-            <p class="member-role">
-              Co-president / ふくかいちょう
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="member-container">
-        <p class="eboard-member">
-          Suzuna Kimura
-        </p>
-        <div class="eboard-visuals-container">
-          <img class="member-picture" src="Eboard-headshots/treasurer.png" alt="treasurer">
-          <div class="eboard-overlay">
-            <p class="member-role">
-              Treasurer / ざいむかん
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="member-container">
-        <p class="eboard-member">
-          Jennifer Wang
-        </p>
-        <div class="eboard-visuals-container">
-          <img class="member-picture" src="Eboard-headshots/social-media-manager.png" alt="social media manager">
-          <div class="eboard-overlay">
-            <p class="member-role">
-              Social Media Manager / ソシャルメヂアたんとう
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="member-container">
-        <p class="eboard-member">
-          Joshua Johnston
-        </p>
-        <div class="eboard-visuals-container">
-          <img class="member-picture" src="Eboard-headshots/secretary.png" alt="secretary">
-          <div class="eboard-overlay">
-            <p class="member-role">
-              Secretary / ちょうかん
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="member-container">
-        <p class="eboard-member">
-          Kensho Takahashi
-        </p>
-        <div class="eboard-visuals-container">
-          <img class="member-picture" src="Eboard-headshots/graphic-design-pr.png" alt="graphic design and pr">
-          <div class="eboard-overlay">
-            <p class="member-role">
-              Design & PR / デザイナ　&  こうほう
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="member-container">
-        <p class="eboard-member">
-          Farhan Sajid Soomro
-        </p>
-        <div class="eboard-visuals-container">
-          <img class="member-picture" src="Eboard-headshots/event-coordinator.png" alt="event coordinator">
-          <div class="eboard-overlay">
-            <p class="member-role">
-              Event coordinator / イベントコーディネーター
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="member-container">
-        <p class="eboard-member">
-          Kristian Agenor
-        </p>
-        <div class="eboard-visuals-container">
-          <img class="member-picture" src="Eboard-headshots/marketing.png" alt="marketing">
-          <div class="eboard-overlay">
-            <p class="member-role">
-              Marketing / マーケティング
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--
-      <p class="events-section-title">
-      PREVIOUS EVENTS
-    </p>
-    <div class="event-slides-flexbox">
-
-      <div class="event-container">
-        <p class="event-title">
-
-        </p>
-        <div class="event-visuals-container">
-          <a>
-            
-          </a>
-          <a class="overlay-button-left">
-            &#10094
-          </a>
-          <a class="overlay-button-right">
-            &#10095
-          </a>
-        </div>
-      </div>
-
-      <div class="event-container">
-        <p class="event-title">
-
-        </p>
-        <div class="event-visuals-container">
-          <a class="overlay-button-left">
-            &#10094
-          </a>
-          <a class="overlay-button-right">
-            &#10095
-          </a>
-        </div>
-      </div>
-    -->
+    </section>
   
+    <section id="links" class="py-4">
+      <div class="container-fluid text-center">
+        <p class="pb-4 useful-links-section-title">
+          Useful Links
+        </p>
+        <div class="row m-3 justify-content-evenly">
+          <div class="col-4">
+            <div class="card card-bg shadow-sm">
+              <div class="card-body text-center p-2">
+                <p class="h5 cardtitle m-2">
+                  Groupme
+                </p>
+                <a target="_blank" href="https://web.groupme.com/join_group/85219025/WhKOeygs">
+                  <img src="/icons/groupme.png" alt="link" class="mt-2" height="100">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card card-bg shadow-sm">
+              <div class="card-body text-center p-2">
+                <p class="h5 cardtitle m-2">
+                  Instagram
+                </p>
+                <a target="_blank" href="https://www.instagram.com/accounts/login/?next=/gsujsa/">
+                  <img src="/icons/instagram.png" alt="link" class="mt-2" height="100">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row m-3 justify-content-evenly">
+          <div class="col-4">
+            <div class="card card-bg shadow-sm">
+              <div class="card-body text-center p-2">
+                <p class="h5 cardtitle m-2">
+                  Spotify
+                </p>
+                <a target="_blank" href="https://open.spotify.com/user/au5kkn0p64t0huqvlcme9wy0f?si=t5eBleaaQziLQOK2KCqURg&nd=1">
+                  <img src="/icons/spotify.png" alt="link" class="mt-2" height="100">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card card-bg shadow-sm">
+              <div class="card-body text-center p-2">
+                <p class="h5 cardtitle m-2">
+                  Discord
+                </p>
+                <a target="_blank" href="https://discord.com/invite/ncDW8CW">
+                  <img src="/icons/discord.png" alt="link" class="mt-2" height="100">
+                </a>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="row justify-content-evenly m-3">
+          <div class="col-4">
+            <div class="card card-bg shadow-sm">
+              <div class="card-body text-center p-2">
+                <p class="h5 cardtitle m-2">
+                  Japanese Tutoring
+                </p>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScZSNAj16XSBiQ2EE0wwKsOBJvluS3LN07HW18SQ3AxDxRTOw/viewform">
+                  <img src="/icons/learning.png" alt="link" class="mt-2" height="100">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card card-bg shadow-sm">
+              <div class="card-body text-center p-2">
+                <p class="h5 cardtitle m-2">
+                  JSA PIN
+                </p>
+                <a target="_blank" href="https://pin.gsu.edu/organization/japanese-student-association">
+                  <img src="/icons/PIN.png" alt="link" class="mt-2" height="100">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     </div>
     <script src="index.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
   </body>
 </html>

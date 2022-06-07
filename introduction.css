@@ -1,19 +1,5 @@
-.introduction-container{
-    position: relative;
-    height: auto;
-    width: 100%;
-}
-.landing-text{
-    font-family: "Noto Sans JP", "sans-serif";
-    position: absolute;
-    color: #262626;
-    inline-size: 540px;
-    bottom: 60%;
-    left: 7%;
-    margin: 0;
-    letter-spacing: 2px;
-}
-.background-img{
-    width: 100%;
-    height: auto;
+
+.intro-background{
+    background-image: url(/images/landscape.jpg);
+    height: 700px;
 }

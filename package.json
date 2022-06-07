@@ -1,0 +1,22 @@
+{
+  "name": "japanese-student-association.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Japanese-Student-Association/Japanese-Student-Association.github.io.git"
+  },
+  "author": "Josh J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Japanese-Student-Association/Japanese-Student-Association.github.io/issues"
+  },
+  "homepage": "https://github.com/Japanese-Student-Association/Japanese-Student-Association.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

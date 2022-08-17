@@ -1,3 +1,14 @@
-.navbar-color{
-    background-color: rgb(250, 157, 175)
+.navbar-color {
+  background-color: rgb(250, 157, 175);
+}
+
+li > a {
+  font-weight: 500;
+}
+
+@media (min-width: 992px) {
+  li > a:hover {
+    background-color: rgb(230, 81, 131);
+    border-radius: 5%;
+  }
 }

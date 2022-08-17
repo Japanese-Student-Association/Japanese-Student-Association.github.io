@@ -1,8 +1,12 @@
-.useful-links-section-title{
-    font-size: 30px;
-    font-style: oblique;
-    font-weight: bold;
+.useful-links-section-title {
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: bold;
 }
-.card-bg{
-    background-color: rgba(255, 255, 255, .2) !important;
+.card-bg {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+p.cardtitle {
+  font-size: 1.1rem;
 }

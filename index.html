@@ -16,7 +16,7 @@
 
   </head>
   <body>
-    
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-color py-0 fixed-top">
       <div class="container-fluid">
         <a href="#" class="navbar-brand text-black fw-bold">
@@ -37,14 +37,12 @@
             <li class="nav-item">
               <a href="#links" class="nav-link text-black mx-1"> Useful Links</a>
             </li>
-            <li>
-              <a target="_blank" href="http://gsujsa.contactinbio.com/" class="nav-link text-black mx-1"> RSVP for Future Events!</a>
-            </li>
           </ul>
         </div>
       </div>
     </nav>
 
+    <!-- Welcome Section -->
     <section id="introduction" class="intro-background">
       <div class="container-fluid p-5 ">
         <p class="h1 p-5">
@@ -53,6 +51,7 @@
       </div>
     </section>
 
+    <!-- E-board Pictures and Names -->
     <section id="e-board" class="py-2">
       <div class="container-fluid text-center">
         <p class=" pb-4 e-board-section-title ">
@@ -120,7 +119,8 @@
         </div>
       </div>
     </section>
-  
+    
+    <!-- Useful Links -->
     <section id="links" class="py-4">
       <div class="container-fluid text-center">
         <p class="pb-4 useful-links-section-title">
@@ -206,7 +206,25 @@
         </div>
       </div>
     </section>
-    </div>
+
+    <!-- Event Sign Up Modal -->
+    <dialog id="eventModal">
+      <h2 class="modal-title"> Interested in Future Events?</h2>
+      <p class="modal-body"> 
+        Outside of our biweekly meetups, the Japanese Student Association <br>
+        hosts collaborations with other clubs and schools within Atlanta. <br>
+        If you're interested in attending, be sure to check out our upcoming <br>
+        collaborations so you can RSVP!
+      </p>
+      <a href="http://gsujsa.contactinbio.com/" target="_blank">
+        <button id="seeEvents" class="btn">
+            See Upcoming Events!
+        </button>
+      </a>
+      <button id="closeBtn" class="btn ms-3">
+        Close
+      </button>
+    </dialog>
     <script src="index.js"></script>
     <script src="/node-modules/bootstrap/dist/js/bootstrap.js"></script>
   </body>
